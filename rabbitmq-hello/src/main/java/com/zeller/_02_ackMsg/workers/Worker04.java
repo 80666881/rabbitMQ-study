@@ -4,17 +4,19 @@ import com.rabbitmq.client.CancelCallback;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DeliverCallback;
 import com.zeller.utils.RabbitMqUtils;
+import com.zeller.utils.SleepUtils;
 
 
-public class Worker01 {
+public class Worker04 {
     public static final String QUEUE_NAME = "ack_queue";
 
     public static void main(String[] args) throws Exception {
         Channel channel = RabbitMqUtils.getChannel();
         //  接收消息  声明
         DeliverCallback deliverCallback = (consumerTag, message) -> {
-            //沉睡疫苗
-            System.out.println("接收到的消息" + new String(message.getBody()));
+            //沉睡一秒
+            SleepUtils.sleep(1);
+            System.out.println("worker-01接收到的消息" + new String(message.getBody()));
             /**
              * 1.消息tag
              * 2.是否批量处理
