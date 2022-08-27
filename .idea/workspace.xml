@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a5e845-74e4-4d84-a92c-7df64c5602ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/InputProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker01.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker02.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/utils/SleepUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/utils/SleepUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/target/classes/com/zeller/_02_ackMsg/InputProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/target/classes/com/zeller/_02_ackMsg/InputProducer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/rabbitmqhello/target/" />
@@ -24,41 +25,11 @@
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="rabbit_mq" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/InputProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="9" selection-start-line="9" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/workers/Worker01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/workers/Worker02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/workers/Worker03.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,8 +42,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="340">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/InputProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/confirmMsg/ConfirmMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker06.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker07.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -80,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" selection-start-line="9" selection-end-line="34" />
+            <state relative-caret-position="426">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -95,32 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker05.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/utils/RabbitMqUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="293">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -133,6 +125,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>channel.add</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,11 +147,17 @@
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/InputProducer.java" />
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/workers/Worker01.java" />
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/workers/Worker01.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java" />
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/utils/SleepUtils.java" />
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker01.java" />
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker02.java" />
         <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker05.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker04.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker05.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker06.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker07.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/InputProducer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/confirmMsg/ConfirmMsg.java" />
       </list>
     </option>
   </component>
@@ -172,12 +175,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="442" />
-    <option name="y" value="-997" />
+    <option name="x" value="460" />
+    <option name="y" value="-1040" />
     <option name="width" value="1201" />
     <option name="height" value="973" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -277,6 +282,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zeller" type="462c0819:PsiDirectoryNode" />
+              <item name="_03_duration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit_mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zeller" type="462c0819:PsiDirectoryNode" />
+              <item name="_03_duration" type="462c0819:PsiDirectoryNode" />
+              <item name="confirmMsg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit_mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-hello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zeller" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -289,20 +315,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zeller._03_duration" />
       <recent name="com.zeller._02_ackMsg" />
       <recent name="com.zeller.workers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration" />
       <recent name="$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg" />
     </key>
   </component>
@@ -318,7 +346,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Worker05">
+  <component name="RunManager" selected="Application.ConfirmMsg">
+    <configuration name="ConfirmMsg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeller._03_duration.confirmMsg.ConfirmMsg" />
+      <module name="rabbitmq-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeller._03_duration.confirmMsg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InputProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zeller._02_ackMsg.InputProducer" />
       <module name="rabbitmq-hello" />
@@ -332,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Worker02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeller._01_workerMode.workers.Worker02" />
+    <configuration name="InputProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeller._03_duration.InputProducer" />
       <module name="rabbitmq-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeller._01_workerMode.workers.*" />
+          <option name="PATTERN" value="com.zeller._03_duration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Worker03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeller._01_workerMode.workers.Worker03" />
+    <configuration name="Worker06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeller._03_duration.Worker06" />
       <module name="rabbitmq-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeller._01_workerMode.workers.*" />
+          <option name="PATTERN" value="com.zeller._03_duration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,25 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Worker04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeller._02_ackMsg.workers.Worker04" />
+    <configuration name="Worker07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeller._03_duration.Worker07" />
       <module name="rabbitmq-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeller._02_ackMsg.workers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Worker05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeller._02_ackMsg.workers.Worker05" />
-      <module name="rabbitmq-hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeller._02_ackMsg.workers.*" />
+          <option name="PATTERN" value="com.zeller._03_duration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Worker02" />
-      <item itemvalue="Application.Worker03" />
       <item itemvalue="Application.InputProducer (1)" />
-      <item itemvalue="Application.Worker04" />
-      <item itemvalue="Application.Worker05" />
+      <item itemvalue="Application.InputProducer" />
+      <item itemvalue="Application.Worker06" />
+      <item itemvalue="Application.Worker07" />
+      <item itemvalue="Application.ConfirmMsg" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Worker05" />
+        <item itemvalue="Application.ConfirmMsg" />
+        <item itemvalue="Application.Worker07" />
+        <item itemvalue="Application.Worker06" />
+        <item itemvalue="Application.InputProducer" />
         <item itemvalue="Application.InputProducer (1)" />
-        <item itemvalue="Application.Worker04" />
-        <item itemvalue="Application.Worker03" />
-        <item itemvalue="Application.Worker02" />
       </list>
     </recent_temporary>
   </component>
@@ -412,31 +440,32 @@
       <option name="presentableId" value="Default" />
       <updated>1661503254161</updated>
       <workItem from="1661503256120" duration="3360000" />
-      <workItem from="1661524446717" duration="2534000" />
+      <workItem from="1661524446717" duration="9008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5894000" />
+    <option name="totallyTimeSpent" value="12368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="442" y="-997" width="1201" height="973" extended-state="0" />
+    <frame x="460" y="-1040" width="1201" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25366697" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8350694" visible="true" weight="0.25366697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="4" sideWeight="0.16493055" side_tool="true" weight="0.25366697" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32945284" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32945284" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32945284" />
@@ -487,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.8.0/amqp-client-5.8.0.jar!/com/rabbitmq/client/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/InputProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -517,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_01_workerMode/workers/Worker02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -538,24 +560,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="426">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker04.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/InputProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="34" />
+        <state relative-caret-position="340">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.8.0/amqp-client-5.8.0.jar!/com/rabbitmq/client/MessageProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_02_ackMsg/workers/Worker05.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="293">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/Worker07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/InputProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.8.0/amqp-client-5.8.0.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-hello/src/main/java/com/zeller/_03_duration/confirmMsg/ConfirmMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

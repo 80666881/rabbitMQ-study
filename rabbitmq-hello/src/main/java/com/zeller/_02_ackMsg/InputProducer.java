@@ -13,7 +13,12 @@ public class InputProducer {
     public static void main(String[] args) throws Exception {
 
         Channel channel = RabbitMqUtils.getChannel();
-
+        /**
+         * 1.queueName
+         * 2.是否持久化durable
+         * 3.是否独占
+         * 4.其他参数
+         */
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
         Scanner scanner = new Scanner(System.in);
         while(scanner.hasNext()){
